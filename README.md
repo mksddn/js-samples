@@ -4,6 +4,6 @@ templates &amp; tools on JS
 
 https://mrmadu.github.io/js-samples/
 
-![preview](https://github.com/mrmadu/js-samples/blob/a372e8dd9467706b243d11da26452673211fdd16/preview.gif)
+![preview](https://github.com/mrmadu/js-samples/blob/b9c7ad416ec1e5af85d625ebed5e23ff28fdbb28/preview.gif)
 
 

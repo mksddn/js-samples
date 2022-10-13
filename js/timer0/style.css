@@ -1,0 +1,21 @@
+.promotion__timer {
+    width: 320px
+}
+.promotion__timer .timer {
+    margin-top: 15px;
+    display: flex;
+}
+.promotion__timer .timer__block {
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 15px;
+}
+.promotion__timer .timer__block span {
+    font-size: 56px;
+    font-weight: 700;
+    display: block;
+}

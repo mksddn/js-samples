@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Generator | border-radius</title>
+</head>
+<body>
+    <div class="wrapper-flex">
+        <div class="wrapper">
+            <div class="wrapper-top">
+                <div class="top-left-range">
+                    <input 
+                    type="range"
+                    class="range"
+                    id="rangeTL"
+                    min="0"
+                    max="100"
+                    value="0"
+                    ><br>
+                    <input type="text" class="text" value="0">
+                </div>
+                <div class="top-right-range">
+                    <input 
+                    type="range"
+                    class="range"
+                    id="rangeTR"
+                    min="0"
+                    max="100"
+                    value="0"
+                    ><br>
+                    <input type="text" class="text" value="0">
+                </div>
+            </div>
+            <div class="wrapper-middle">
+                <div id="square"></div>
+            </div>
+            <div class="wrapper-bottom">
+                <div class="bottom-left-range">
+                    <input 
+                    type="range"
+                    class="range"
+                    id="rangeBL"
+                    min="0"
+                    max="100"
+                    value="0"
+                    ><br>
+                    <input type="text" class="text" value="0">
+                </div>
+                <div class="bottom-right-range">
+                    <input 
+                    type="range"
+                    class="range"
+                    id="rangeBR"
+                    min="0"
+                    max="100"
+                    value="0"
+                    ><br>
+                    <input type="text" class="text" value="0">
+                </div>
+            </div>
+        </div>
+        <div class="total-result">
+            <span>border-radius: 
+            <!-- <span id="resultTL">0</span>px 
+            <span id="resultTR">0</span>px 
+            <span id="resultBL">0</span>px 
+            <span id="resultBR">0</span>px  -->
+            <strong id="result"></strong>
+            </span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

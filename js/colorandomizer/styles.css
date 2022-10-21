@@ -8,6 +8,16 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  height: 100vh;
+}
+.descr {
+  height: 150px;
+  padding: 100px 50px;
 }
 
 .col {

@@ -1,8 +1,8 @@
-const cols = document.querySelectorAll('.col')
+const cols = document.querySelectorAll('.color')
 
 document.addEventListener('keydown', (event) => {
-  event.preventDefault()
   if (event.code.toLowerCase() === 'space') {
+    event.preventDefault()
     setRandomColors()
   }
 })
